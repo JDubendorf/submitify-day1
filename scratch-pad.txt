@@ -1,0 +1,35 @@
+// school API
+
+create html skeleton, then jQuery magic like this
+
+for (var each of conv) {
+    $('#classes').append("<li>" + each.name + "</li>");
+}
+
+buttons themselves already in html, not dynamically generated
+
+
+
+// virtual pet
+
+big createPetHTML function
+
+var $buttonPlay = $("<button>Play</button>");
+
+$buttonPlay.click(function() {
+	controller.playWithPet(pet.name, 5);
+	this.showAllPets();
+	}.bind(this)
+);
+
+then reference methods defined either in view or elsewhere
+
+
+
+// submitify day 01
+
+best method for generating html?
+
+best method bor binding individual buttons to events?
+
+any advantage to wrapping POST and GET in functions?
